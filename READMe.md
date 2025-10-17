@@ -97,7 +97,8 @@ Make sure Docker, Java 17+, and Node.js 18+ are installed.
     - application.properties (backend)
     - .env (optional for frontend)
 
-When using Docker, backend and database automatically connect via internal Docker network.
+- When using Docker, backend and database automatically connect via internal Docker network.
+- Frontend adapted from [Devtiro](https://github.com/Devtiro) template. Modified for this project.
 
 ## 👩‍💻 Author
 **💼 Role:** Full Stack Developer  
