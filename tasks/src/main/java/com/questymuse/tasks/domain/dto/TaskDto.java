@@ -1,0 +1,18 @@
+package com.questymuse.tasks.domain.dto;
+
+import com.questymuse.tasks.domain.entities.TaskPriority;
+import com.questymuse.tasks.domain.entities.TaskStatus;
+
+import java.time.LocalDateTime;
+import java.util.UUID;
+
+public record TaskDto(
+        UUID id,
+        String title,
+        String description,
+        LocalDateTime dueDate,
+        TaskPriority priority,
+        TaskStatus status
+) {
+
+}

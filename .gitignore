@@ -1,0 +1,17 @@
+# Java / Spring Boot
+tasks/target/
+tasks/.idea/
+tasks/.vscode/
+tasks/.mvn/
+tasks/*.iml
+
+# Node / React / Vite
+tasks-frontend/node_modules/
+tasks-frontend/dist/
+tasks-frontend/.env
+tasks-frontend/.vite/
+tasks-frontend/.vscode/
+
+# System files
+.DS_Store
+*.log
