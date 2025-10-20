@@ -5,7 +5,6 @@
 [![React](https://img.shields.io/badge/React-18+-61DAFB?logo=react&logoColor=white)](https://react.dev/)
 [![Docker](https://img.shields.io/badge/Docker-Ready-blue?logo=docker&logoColor=white)](https://www.docker.com/)
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-latest-blue?logo=postgresql&logoColor=white)](https://www.postgresql.org/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 # Task Builder App
 
@@ -97,7 +96,8 @@ Make sure Docker, Java 17+, and Node.js 18+ are installed.
     - application.properties (backend)
     - .env (optional for frontend)
 
-When using Docker, backend and database automatically connect via internal Docker network.
+- When using Docker, backend and database automatically connect via internal Docker network.
+- Frontend adapted from [Devtiro](https://github.com/Devtiro) template. Modified for this project.
 
 ## 👩‍💻 Author
 **💼 Role:** Full Stack Developer  
