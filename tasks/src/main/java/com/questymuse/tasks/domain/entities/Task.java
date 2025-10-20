@@ -119,6 +119,10 @@ public class Task {
         this.updatedDate = updatedDate;
     }
 
+    public void setTaskList(TaskList taskList) {
+        this.taskList = taskList;
+    }
+
     @Override
     public boolean equals(Object obj) {
         if(this == obj) return true;
